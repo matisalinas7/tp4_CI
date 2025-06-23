@@ -4,20 +4,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class StringUtilsTest {
-    @Test
-    public void testContarVocales() {
-        // TODO: Implementar prueba
-    }
-
-    @Test
-    public void testInvertir() {
-        // TODO: Implementar prueba
-    }
-
-    @Test
-    public void testEsPalindromo() {
-        // TODO: Implementar prueba
-    }
 
     // Contar vocales correctos
     @Test
@@ -36,22 +22,19 @@ public class StringUtilsTest {
     }
 
 
-    // Casos incorrectos para contarVocales
+    // ContarVocales incorrectos
     @Test
     public void testContarVocales_incorrecto_esperaMas() {
-        // Espera 10, pero la función correcta devolvería 4
         assertEquals(10, StringUtils.contarVocales("Hola mundo"));
     }
 
     @Test
     public void testContarVocales_incorrecto_esperaMenos() {
-        // Espera 0, pero la función correcta devolvería 5
         assertEquals(0, StringUtils.contarVocales("aeiou"));
     }
 
     @Test
     public void testContarVocales_incorrecto_vacioEsUno() {
-        // Espera 1, pero la función correcta devolvería 0
         assertEquals(1, StringUtils.contarVocales(""));
     }
 
@@ -106,19 +89,16 @@ public class StringUtilsTest {
     // Palindromo incorrectos
     @Test
     public void testEsPalindromo_incorrecto_esperaTrue() {
-        // "casa" no es palíndromo, pero espera true (debe fallar)
         assertTrue(StringUtils.esPalindromo("casa"));
     }
 
     @Test
     public void testEsPalindromo_incorrecto_esperaFalse() {
-        // "anilina" es palíndromo, pero espera false (debe fallar)
         assertFalse(StringUtils.esPalindromo("anilina"));
     }
 
     @Test
     public void testEsPalindromo_incorrecto_vacioEsTrue() {
-        // Cadena vacía, espera true (debe fallar si la implementación considera vacía como no palíndromo)
         assertTrue(StringUtils.esPalindromo(""));
     }
 } 
