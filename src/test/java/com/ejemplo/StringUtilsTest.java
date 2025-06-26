@@ -21,7 +21,6 @@ public class StringUtilsTest {
         assertEquals(0, StringUtils.contarVocales(""));
     }
 
-
     // ContarVocales incorrectos
     // @Test
     // public void testContarVocales_incorrecto_esperaMas() {
