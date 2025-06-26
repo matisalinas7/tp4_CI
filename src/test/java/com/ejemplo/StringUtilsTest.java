@@ -24,12 +24,12 @@ public class StringUtilsTest {
     // ContarVocales incorrectos
     // @Test
     // public void testContarVocales_incorrecto_esperaMas() {
-    //     assertEquals(10, StringUtils.contarVocales("Hola mundo"));
+    //     assertEquals(3, StringUtils.contarVocales("Hola mundo"));
     // }
 
     // @Test
     // public void testContarVocales_incorrecto_esperaMenos() {
-    //     assertEquals(0, StringUtils.contarVocales("aeiou"));
+    //     assertEquals(2, StringUtils.contarVocales("aeiou"));
     // }
 
     // @Test
