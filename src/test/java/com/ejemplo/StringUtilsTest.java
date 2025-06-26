@@ -32,10 +32,10 @@ public class StringUtilsTest {
         assertEquals(2, StringUtils.contarVocales("aeiou"));
     }
 
-    // @Test
-    // public void testContarVocales_incorrecto_vacioEsUno() {
-    //     assertEquals(1, StringUtils.contarVocales(""));
-    // }
+    @Test
+    public void testContarVocales_incorrecto_vacioEsUno() {
+        assertEquals(1, StringUtils.contarVocales(""));
+    }
 
     // Invertir correctos
     // @Test
