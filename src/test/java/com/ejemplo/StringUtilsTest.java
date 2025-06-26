@@ -24,7 +24,7 @@ public class StringUtilsTest {
     // ContarVocales incorrectos
     @Test
     public void testContarVocales_incorrecto_esperaMas() {
-        assertEquals(13, StringUtils.contarVocales("Hola mundo"));
+        assertEquals(4, StringUtils.contarVocales("Hola mundo"));
     }
 
     // @Test
