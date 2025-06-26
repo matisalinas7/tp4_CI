@@ -22,10 +22,10 @@ public class StringUtilsTest {
     }
 
     // ContarVocales incorrectos
-    // @Test
-    // public void testContarVocales_incorrecto_esperaMas() {
-    //     assertEquals(3, StringUtils.contarVocales("Hola mundo"));
-    // }
+    @Test
+    public void testContarVocales_incorrecto_esperaMas() {
+        assertEquals(4, StringUtils.contarVocales("Hola mundo"));
+    }
 
     // @Test
     // public void testContarVocales_incorrecto_esperaMenos() {
