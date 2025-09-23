@@ -28,9 +28,6 @@ public class StringUtils {
       i++;
       j--;
     }
-
-
-    //// aa
     return true;
   }
 }
